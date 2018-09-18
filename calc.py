@@ -1,9 +1,24 @@
 #!/usr/bin/python3
 
-import sys
+# import sys
 
-try:
-  ans = eval(''.join(sys.argv[1:]))
-  print(ans)
-except:
-  print('Please input correct syntax. For example: \'1+2*3\'')
+# try:
+  # ans = eval(''.join(sys.argv[1:]))
+  # print(ans)
+# except:
+  # print('Please input correct syntax. For example: \'1+2*3\'')
+
+def add(x, y):
+	pass
+		
+def subtrate(x, y):
+	pass
+
+def multiply(x, y):
+	return x*y
+
+def divide(x, y):
+	pass
+
+def square(x, y):
+	pass	
